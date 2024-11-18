@@ -1,0 +1,502 @@
+/* General and Global Styles */
+html {
+    scroll-behavior: smooth;
+    
+}
+/* The body my boy */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+    min-height: 100vh;
+    
+}
+
+
+.Hello{
+    margin-top: 15vh;
+}
+
+/* Header top */
+.Heading{
+    position: fixed;
+    top: 0;                
+    width: 100%;           
+    z-index: 1000;    
+         
+}
+
+/* Navigation Styles */
+nav {
+    font-size: 2.5vh;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Nav list unordered*/
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    list-style: none;
+}
+/* Nav bar list */
+nav ul li {
+    display: flex;
+    height: fit-content;
+    max-height: 5vh;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* Your nav link */
+nav a {
+    display: inline-flex;
+    font-size: larger;
+    padding: 10px 5vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Heading and Link Styles */
+.Heading a {
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+/* On hover */
+.Heading a:hover {
+    color: blueviolet;
+    transition-duration: 0.3s;
+}
+
+/* This is the uhhh the word in the sentence that's actually a link */
+.Bijzonder {
+    text-decoration: none;
+    color: #009688;
+    transition-duration: 0.3s;
+}
+/* When you hover */
+.Bijzonder:hover {
+    color: #0056b3;
+    transition-duration: 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+    transition-duration: 0.3s;
+}
+
+/* Intro Section */
+.Intro {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+/* for the heading */
+heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Text section area */
+main section {
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+}
+
+/* Radius */
+main section div {
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem auto;
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80%;
+}
+
+
+
+/* The image */
+main div img {
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 100%;
+}
+
+/* Section and Article Styles */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    display: flex;
+    justify-content: center;
+}
+
+article div {
+    margin: 0 auto;
+    display: block;
+}
+
+article img {
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+article div video {
+    max-width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Home Page Styles */
+.HomePage {
+    max-width: 50%;
+}
+
+.HomePage h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.HomePage p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.HomePage p a {
+    margin: 0 4px;
+}
+
+.HomePage a {
+    display: inline;
+}
+
+/* About Section Styles */
+.about {
+    border-radius: 8px;
+    padding: 2rem;
+    margin-top: 15vh;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    width: fit-content;
+    margin-bottom: 15vh;
+}
+
+.about article {
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem auto;
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 40%;
+}
+
+.about p {
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.about h3 {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    align-items: center;
+}
+
+#about div {
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem auto;
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80%;
+}
+
+
+/* Projects Section */
+.Projects {
+   
+    border-radius: 8px;
+    padding: 2rem;
+    margin-top: 15vh;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Projects h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.project-card {
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem auto;
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 40%;
+}
+
+.project-card img {
+    max-width: 30%;
+    width: fit-content;
+}
+
+/* Interview Section */
+#interview {
+    border-radius: 8px;
+    padding: 2rem;
+    margin-top: 15vh;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 15vh;
+
+}
+
+#interview article div {
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem auto;
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 5%;
+}
+
+
+.Middle {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Future Section */
+#future {
+    border-radius: 8px;
+    padding: 2rem;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+#future article  div {
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem auto;
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+}
+#future a{
+    text-decoration: none;
+    color: #009688;
+    float: left;
+    margin: 0 auto;
+    padding: 0.1%;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
+
+
+
+ /* footer{
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem auto;
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    max-width: 80%;
+} */
+
+#future form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#future form input[type="email"]{
+    padding: 5px 10px;
+}
+
+#future form input[type=Number]{
+    padding: 5px 10px;
+
+}
+
+
+
+/* Special Link Styles */
+.Link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: blue;
+}
+
+.Special {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Table Styles */
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: gray;
+}
+
+td {
+    background-color: white;
+}
+
+
+section article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Smile img{
+    
+    width: 100vw;  
+    height: 100vh; 
+    object-fit: cover; 
+    display: block; 
+}
+
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+ 
+
+    text-decoration: none;
+    max-width: 80%;
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem auto;
+    background: linear-gradient(to top, #e0f7fa, #b2ebf2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
