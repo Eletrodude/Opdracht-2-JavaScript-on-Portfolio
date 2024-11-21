@@ -381,7 +381,7 @@ article div video {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 100%;
+    max-width: 80%;
 }
 #future a{
     text-decoration: none;
