@@ -9,10 +9,40 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
     min-height: 100vh;
-    
+
 }
+
+#Cookie-Melding{
+    max-width: 30%;
+    max-height: 45%;
+    width: fit-content;
+    height: fit-content;
+    background-color: cornflowerblue;
+    position: fixed;
+    top: 60vh;
+    left: 35vw;
+    text-align: center;
+    backdrop-filter: blur(100px);
+    z-index: 5;
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 3%;
+
+}
+
+#Cookie-Melding p{
+    text-align: left;
+}
+.Light_Mode{
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+}
+
+.Dark_Mode{
+    background: linear-gradient(to bottom, #2e5544, #00332d);
+}
+
+
 
 
 .Hello{
