@@ -1,8 +1,9 @@
 /* General and Global Styles */
 html {
     scroll-behavior: smooth;
-    
+
 }
+
 /* The body my boy */
 body {
     padding: 0;
@@ -10,10 +11,11 @@ body {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     min-height: 100vh;
+    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
 
 }
 
-#Cookie-Melding{
+#Cookie-Melding {
     max-width: 30%;
     max-height: 45%;
     width: fit-content;
@@ -31,31 +33,35 @@ body {
 
 }
 
-#Cookie-Melding p{
+#Cookie-Melding p {
     text-align: left;
 }
-.Light_Mode{
-    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+
+
+.Button {
+    max-width: 3vw;
+    max-height: 3vh;
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    top: 9.1vh;
+    border-radius: 20px;
+
+
 }
 
-.Dark_Mode{
-    background: linear-gradient(to bottom, #2e5544, #00332d);
-}
 
-
-
-
-.Hello{
+.Hello {
     margin-top: 15vh;
 }
 
 /* Header top */
-.Heading{
+.Heading {
     position: fixed;
-    top: 0;                
-    width: 100%;           
-    z-index: 1000;    
-         
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
 }
 
 /* Navigation Styles */
@@ -65,6 +71,7 @@ nav {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 /* Nav list unordered*/
 nav ul {
     display: flex;
@@ -74,6 +81,7 @@ nav ul {
     justify-content: center;
     list-style: none;
 }
+
 /* Nav bar list */
 nav ul li {
     display: flex;
@@ -111,6 +119,7 @@ nav a {
     color: #009688;
     transition-duration: 0.3s;
 }
+
 /* When you hover */
 .Bijzonder:hover {
     color: #0056b3;
@@ -130,7 +139,7 @@ a:hover {
 }
 
 /* for the heading */
-header{
+header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,7 +182,6 @@ main section div {
     flex-direction: column;
     max-width: 80%;
 }
-
 
 
 /* The image */
@@ -299,7 +307,7 @@ article div video {
 
 /* Projects Section */
 .Projects {
-   
+
     border-radius: 8px;
     padding: 2rem;
     margin-top: 15vh;
@@ -400,7 +408,7 @@ article div video {
     max-width: 70%;
 }
 
-#future article  div {
+#future article div {
     border-radius: 8px;
     padding: 2rem;
     margin: 2rem auto;
@@ -413,7 +421,8 @@ article div video {
     flex-direction: column;
     max-width: 80%;
 }
-#future a{
+
+#future a {
     text-decoration: none;
     color: #009688;
     float: left;
@@ -426,36 +435,34 @@ article div video {
 }
 
 
-
- /* footer{
-    border-radius: 8px;
-    padding: 2rem;
-    margin: 2rem auto;
-    background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    max-width: 80%;
+/* footer{
+   border-radius: 8px;
+   padding: 2rem;
+   margin: 2rem auto;
+   background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: row;
+   max-width: 80%;
 } */
 
-#future form{
+#future form {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-#future form input[type="email"]{
+#future form input[type="email"] {
     padding: 5px 10px;
 }
 
-#future form input[type=Number]{
+#future form input[type=Number] {
     padding: 5px 10px;
 
 }
-
 
 
 /* Special Link Styles */
@@ -505,21 +512,21 @@ section article div {
 }
 
 
-.Smile img{
-    
-    width: 100vw;  
-    height: 100vh; 
-    object-fit: cover; 
-    display: block; 
+.Smile img {
+
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
 }
 
 
-footer div{
+footer div {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
- 
+
 
     text-decoration: none;
     max-width: 80%;
@@ -528,5 +535,39 @@ footer div{
     margin: 2rem auto;
     background: linear-gradient(to top, #e0f7fa, #b2ebf2);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.Dark_Mode {
+    background: linear-gradient(to bottom, #2e5544, #00332d);
+    color: #F0F0F0;
     
+    nav {
+        background: #E6E6FA;
+    }
+
+    .HomePage {
+        background: #E6E6FA;
+    }
+
+    .HomePage div {
+        background: linear-gradient(to bottom, #2e5544, #00332d);
+    }
+
+    .project-card {
+        background: linear-gradient(to bottom, #2e5544, #00332d);
+    }
+
+    section{background: #E6E6FA;}
+    #about{background: linear-gradient(to bottom, #2e5544, #00332d);}
+    #about article{background-color: #E6E6FA}
+    #about div{background: linear-gradient(to bottom, #2e5544, #00332d);}
+    #projects h2{color: black}
+    #interview{background:#E6E6FA;}
+    #interview div{background: linear-gradient(to bottom, #2e5544, #00332d);}
+    #future{background:#E6E6FA;}
+    #future div{background: linear-gradient(to bottom, #2e5544, #00332d);}
+    footer div {background:#E6E6FA;}
+
 }
