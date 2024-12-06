@@ -16,14 +16,14 @@ body {
 }
 
 #Cookie-Melding{
-    max-width: 30%;
-    max-height: 45%;
+    max-width: 60%;
+    max-height: 60%;
     width: fit-content;
     height: fit-content;
     background-color: cornflowerblue;
     position: fixed;
-    top: 60vh;
-    left: 35vw;
+    bottom: 5vh;
+    left: 20vw;
     text-align: center;
     backdrop-filter: blur(100px);
     z-index: 5;
@@ -35,18 +35,7 @@ body {
 
 #Cookie-Melding p {
     text-align: left;
-}
-
-#EnableMenu{
-    display: none;
-    img{display: none}
-
-}
-.EnableMenu button {
-    display: none;
-
-
-
+    font-size: xx-small;
 }
 
 
@@ -75,6 +64,22 @@ body {
     z-index: 1000;
 
 }
+#EnableMenu{
+    position: fixed;
+    max-width: 10%;
+    max-height: 10%;
+    margin-top:-7%;
+    margin-left: 80%;
+
+}
+#EnableMenu  img{
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 /* Navigation Styles */
 nav {
@@ -87,21 +92,52 @@ nav {
 /* Nav list unordered*/
 nav ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 0;
-    margin: 0;
     justify-content: center;
     list-style: none;
 }
 
 /* Nav bar list */
-nav ul li {
-    display: flex;
+.menuHidden{
+    display: none;
     height: fit-content;
     max-height: 5vh;
+    /*margin: 0 auto;*/
+    margin-right: -150%;
     justify-content: space-around;
     text-align: center;
+
 }
+
+.ToggleMenu {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    margin-top: -3%;
+    right: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: margin-right;
+    transition-duration: 1000ms;
+}
+
+.ToggleMenu li {
+    padding: 10px;
+    text-align: center;
+}
+
+.ToggleMenu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.ToggleMenu li a:hover {
+    color: blueviolet;
+}
+
+
 
 /* Your nav link */
 nav a {
@@ -554,7 +590,7 @@ footer div {
 .Dark_Mode {
     background: linear-gradient(to bottom, #2e5544, #00332d);
     color: #F0F0F0;
-    
+
     nav {
         background: #E6E6FA;
     }

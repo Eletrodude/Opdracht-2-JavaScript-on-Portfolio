@@ -14,7 +14,7 @@
 //     console.log("Clicked Reject")
 //     document.getElementById("Cookie-Melding").style.display = "none"
 // }
-
+let x = false
 function Cookie_Melding(x) {
     let CookieMelding = document.getElementById("Cookie-Melding")
 
@@ -46,6 +46,38 @@ function DarkMode() {
         localStorage.setItem('darkMode', 'disabled');
     }
 }
+
+function changeCss() {
+    let stylesheet = document.getElementById("StyleSheeting")
+    let button = document.getElementById("EnableMenu")
+    if (window.innerWidth <= 600) {
+        stylesheet.href = "../Css/mobileCss.css";
+        button.style.display = "flex"
+
+    } else if (window.innerWidth >= 601) {
+        stylesheet.href = "../Css/main.css";
+        button.style.display = "none"
+    }
+}
+
+window.addEventListener("load", changeCss)
+window.addEventListener("resize", changeCss)
+
+
+function toggleMenu() {
+    const menu = document.getElementById("NavBar");
+
+    // Toggle menu visibility
+    if (menu.classList.contains("menuHidden")) {
+        menu.classList.remove("menuHidden");
+        menu.classList.add("ToggleMenu");
+    } else {
+        menu.classList.remove("ToggleMenu");
+        menu.classList.add("menuHidden");
+    }
+
+}
+
 
 // Apply the saved dark mode state on page load
 window.onload = function () {

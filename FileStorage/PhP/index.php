@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mijn Portfolio</title>
-    <link rel="stylesheet" href="../Css/main.css">
+    <link id="StyleSheeting" rel="stylesheet" href="../Css/main.css">
+
 </head>
 
 <body id="Light_Mode">
 
 <?php include '../Assets/navbar.html' ?>
 <?php include '../HTML/Cookie-Melding.html' ?>
-
+<?php //include '../Assets/mobileBar.html'   ?>
 
     <header class="Intro" id="Intro">
         <h1 class="Hello" id="TimeChange">Hallo lezer.</h1>
