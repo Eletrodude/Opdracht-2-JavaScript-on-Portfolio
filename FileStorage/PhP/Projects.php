@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../Css/main.css">
 </head>
 <body>
 
-<?php include 'Assets/navbar.html' ?>
+<?php include '../Assets/navbar.html' ?>
 
 
 
@@ -19,7 +19,7 @@
     <div class="project-container">
         <div class="project-card">
             <h3>Project 1</h3>
-            <img src="Img/placeholder2.webp" alt="placeholder">
+            <img src="../Img/placeholder2.webp" alt="placeholder">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui a, quae odio earum ad dolore laboriosam
                 ratione expedita. Accusamus quidem modi iure tenetur iusto eum assumenda non praesentium sit illo.
             </p>
@@ -27,7 +27,7 @@
 
         <div class="project-card">
             <h3>Project 2</h3>
-            <img src="Img/placeholder2.webp" alt="placeholder">
+            <img src="../Img/placeholder2.webp" alt="placeholder">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui a, quae odio earum ad dolore laboriosam
                 ratione expedita. Accusamus quidem modi iure tenetur iusto eum assumenda non praesentium sit illo.
             </p>
@@ -38,7 +38,7 @@
     <div class="project-container">
         <div class="project-card">
             <h3>Project 3</h3>
-            <img src="Img/placeholder2.webp" alt="placeholder">
+            <img src="../Img/placeholder2.webp" alt="placeholder">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui a, quae odio earum ad dolore laboriosam
                 ratione expedita. Accusamus quidem modi iure tenetur iusto eum assumenda non praesentium sit illo.
             </p>
@@ -47,7 +47,7 @@
 
         <div class="project-card">
             <h3>Project 4</h3>
-            <img src="Img/placeholder2.webp" alt="placeholder">
+            <img src="../Img/placeholder2.webp" alt="placeholder">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui a, quae odio earum ad dolore laboriosam
                 ratione expedita. Accusamus quidem modi iure tenetur iusto eum assumenda non praesentium sit illo.
             </p>
@@ -56,7 +56,7 @@
 
         <div class="project-card">
             <h3>Project 5</h3>
-            <img src="Img/placeholder2.webp" alt="placeholder">
+            <img src="../Img/placeholder2.webp" alt="placeholder">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui a, quae odio earum ad dolore laboriosam
                 ratione expedita. Accusamus quidem modi iure tenetur iusto eum assumenda non praesentium sit illo.
             </p>

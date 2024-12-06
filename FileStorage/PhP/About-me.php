@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../Css/main.css">
 
 </head>
 <body class="Light_Mode">
 
-<?php include 'Assets/navbar.html' ?>
+<?php include '../Assets/navbar.html' ?>
+
 
 <section id="about">
     <article class="about">
@@ -27,7 +28,7 @@
             <p>Ik ben Leonardo Faleiro, en ik ben geboren op juni 22 2007 (dus ik ben 17!)</p>
             <p>Mijn geboorteland is Portugal (Lissabon) en ik heb mijn eerste 3 jaartjes daar gewoond.</p>
 
-            <img src="Img/lisbon.webp" alt="Een foto van Lisabon">
+            <img src="../Img/lisbon.webp" alt="Een foto van Lisabon">
             <a href="https://www.istockphoto.com/photos/lisbon" class="Link" target="_blank">Gepaakt van
                 istockphoto.com</a>
             <p>Na dat ben ik verhuisd naar Engeland (London) voor ongeveer 8 jaartjes, en nu zit ik hier in
@@ -40,7 +41,7 @@
 
         <div>
             <h3>Mij studies</h3>
-            <img src="Img/th.webp" alt="Een foto van mijn oude school">
+            <img src="../Img/th.webp" alt="Een foto van mijn oude school">
 
             <a href="https://www.de-kameleon.nl/" class="Link" target="_blank">Gepaakt van zijn eigen schoolsite</a>
             <p>Ik zat eerst op de basisschool OBS De Kameleon, dan had ik ISK-lessen. </p>
@@ -53,7 +54,7 @@
         <div>
             <h3>Mij hobbies</h3>
             <video controls loop autoplay muted>
-                <source src="Video/2930943-hd_1920_1080_25fps.mp4" type="video/mp4">
+                <source src="../Video/2930943-hd_1920_1080_25fps.mp4" type="video/mp4">
             </video>
             <a href="https://pixabay.com/videos/search/gaming/" class="Link" target="_blank"> Dit is een video!(Hier
                 is de site!) </a>

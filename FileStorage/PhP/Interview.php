@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../Css/main.css">
 </head>
 <body >
 
-<?php include 'Assets/navbar.html' ?>
+<?php include '../Assets/navbar.html' ?>
 <!-- Interview Section -->
 <section id="interview">
 
