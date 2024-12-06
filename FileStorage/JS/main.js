@@ -17,7 +17,7 @@
 
 function Cookie_Melding(x) {
     let CookieMelding = document.getElementById("Cookie-Melding")
-    let body = document.getElementsByName("body")
+
     if (x === true) {
         console.log("Clicked Accept")
         alert("You have clicked Accept")
