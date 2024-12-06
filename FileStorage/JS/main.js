@@ -52,6 +52,16 @@ window.onload = function () {
     if (localStorage.getItem('darkMode') === 'enabled') {
         document.body.classList.add('Dark_Mode');
     }
-
+    let date = new Date().getHours()
+    let h1 = document.getElementById("TimeChange")
+    if (date >= 21) {
+        h1.innerText = "Good Night"
+    } else if (date >= 17) {
+        h1.innerText = "Good Evening"
+    } else if (date >= 12) {
+        h1.innerText = "Good Afternoon"
+    } else if (date >= 6) {
+        h1.innerText = "Good Morning"
+    }
 
 }
