@@ -19,7 +19,7 @@
         <h1 class="Hello" id="TimeChange">Hallo lezer.</h1>
 
         <h2>Mijn naam is Leo!</h2>
-
+        <h3 id="Countdown"> 10</h3>
 
 
     </header>

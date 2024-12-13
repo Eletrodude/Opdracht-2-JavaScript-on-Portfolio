@@ -15,6 +15,7 @@
 //     document.getElementById("Cookie-Melding").style.display = "none"
 // }
 let x = false
+
 function Cookie_Melding(x) {
     let CookieMelding = document.getElementById("Cookie-Melding")
 
@@ -97,3 +98,30 @@ window.onload = function () {
     }
 
 }
+
+
+function countdown() {
+    let Countdown = 10;
+
+
+    function Denis() {
+        console.log(Countdown)
+
+        if (Countdown > 0) {
+            Countdown--;
+            document.getElementById("Countdown").innerText = Countdown;
+        } else if (Countdown === 0) {
+            clearInterval(id)
+            alert("Countdown Now reached")
+
+        }
+
+
+    }
+
+    let id = setInterval(Denis, 1000)
+
+
+}
+
+countdown()
